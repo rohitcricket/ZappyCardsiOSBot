@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6D402F1DE3FA5E007C4B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D402E1DE3FA5E007C4B50 /* AppDelegate.swift */; };
+		9B6D40311DE3FA5E007C4B50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D40301DE3FA5E007C4B50 /* ViewController.swift */; };
+		9B6D40341DE3FA5E007C4B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D40321DE3FA5E007C4B50 /* Main.storyboard */; };
+		9B6D40361DE3FA5E007C4B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D40351DE3FA5E007C4B50 /* Assets.xcassets */; };
+		9B6D40391DE3FA5E007C4B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D40371DE3FA5E007C4B50 /* LaunchScreen.storyboard */; };
+		9B6D40411DE3FD04007C4B50 /* Smooch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40401DE3FD04007C4B50 /* Smooch.framework */; };
+		9B6D40441DE3FDD6007C4B50 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40431DE3FDD6007C4B50 /* AssetsLibrary.framework */; };
+		9B6D40461DE3FDDF007C4B50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40451DE3FDDF007C4B50 /* AVFoundation.framework */; };
+		9B6D40481DE3FDE4007C4B50 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40471DE3FDE4007C4B50 /* CFNetwork.framework */; };
+		9B6D404A1DE3FDF2007C4B50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40491DE3FDF2007C4B50 /* CoreGraphics.framework */; };
+		9B6D404D1DE3FE04007C4B50 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D404B1DE3FE03007C4B50 /* CoreTelephony.framework */; };
+		9B6D404E1DE3FE04007C4B50 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D404C1DE3FE04007C4B50 /* CoreText.framework */; };
+		9B6D40501DE3FE17007C4B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D404F1DE3FE17007C4B50 /* Foundation.framework */; };
+		9B6D40521DE3FE31007C4B50 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40511DE3FE31007C4B50 /* Photos.framework */; };
+		9B6D40541DE3FE39007C4B50 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40531DE3FE39007C4B50 /* QuartzCore.framework */; };
+		9B6D40561DE3FE3F007C4B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40551DE3FE3F007C4B50 /* UIKit.framework */; };
+		9B6D40581DE3FE4D007C4B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40571DE3FE4D007C4B50 /* SystemConfiguration.framework */; };
+		9B6D405C1DE40399007C4B50 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D405B1DE40399007C4B50 /* CustomObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B6D402B1DE3FA5E007C4B50 /* ZappyCardsBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZappyCardsBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6D402E1DE3FA5E007C4B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B6D40301DE3FA5E007C4B50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B6D40331DE3FA5E007C4B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6D40351DE3FA5E007C4B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6D40381DE3FA5E007C4B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B6D403A1DE3FA5E007C4B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6D40401DE3FD04007C4B50 /* Smooch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Smooch.framework; sourceTree = "<group>"; };
+		9B6D40431DE3FDD6007C4B50 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9B6D40451DE3FDDF007C4B50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B6D40471DE3FDE4007C4B50 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9B6D40491DE3FDF2007C4B50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B6D404B1DE3FE03007C4B50 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9B6D404C1DE3FE04007C4B50 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9B6D404F1DE3FE17007C4B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B6D40511DE3FE31007C4B50 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		9B6D40531DE3FE39007C4B50 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B6D40551DE3FE3F007C4B50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B6D40571DE3FE4D007C4B50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B6D405A1DE40398007C4B50 /* ZappyCardsBot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZappyCardsBot-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B6D405B1DE40399007C4B50 /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6D40281DE3FA5D007C4B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D40581DE3FE4D007C4B50 /* SystemConfiguration.framework in Frameworks */,
+				9B6D40561DE3FE3F007C4B50 /* UIKit.framework in Frameworks */,
+				9B6D40541DE3FE39007C4B50 /* QuartzCore.framework in Frameworks */,
+				9B6D40521DE3FE31007C4B50 /* Photos.framework in Frameworks */,
+				9B6D40501DE3FE17007C4B50 /* Foundation.framework in Frameworks */,
+				9B6D404D1DE3FE04007C4B50 /* CoreTelephony.framework in Frameworks */,
+				9B6D404E1DE3FE04007C4B50 /* CoreText.framework in Frameworks */,
+				9B6D404A1DE3FDF2007C4B50 /* CoreGraphics.framework in Frameworks */,
+				9B6D40481DE3FDE4007C4B50 /* CFNetwork.framework in Frameworks */,
+				9B6D40461DE3FDDF007C4B50 /* AVFoundation.framework in Frameworks */,
+				9B6D40441DE3FDD6007C4B50 /* AssetsLibrary.framework in Frameworks */,
+				9B6D40411DE3FD04007C4B50 /* Smooch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6D40221DE3FA5D007C4B50 = {
+			isa = PBXGroup;
+			children = (
+				9B6D405B1DE40399007C4B50 /* CustomObject.m */,
+				9B6D402D1DE3FA5E007C4B50 /* ZappyCardsBot */,
+				9B6D402C1DE3FA5E007C4B50 /* Products */,
+				9B6D40421DE3FDD6007C4B50 /* Frameworks */,
+				9B6D405A1DE40398007C4B50 /* ZappyCardsBot-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6D402C1DE3FA5E007C4B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D402B1DE3FA5E007C4B50 /* ZappyCardsBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6D402D1DE3FA5E007C4B50 /* ZappyCardsBot */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D402E1DE3FA5E007C4B50 /* AppDelegate.swift */,
+				9B6D40301DE3FA5E007C4B50 /* ViewController.swift */,
+				9B6D40321DE3FA5E007C4B50 /* Main.storyboard */,
+				9B6D40351DE3FA5E007C4B50 /* Assets.xcassets */,
+				9B6D40371DE3FA5E007C4B50 /* LaunchScreen.storyboard */,
+				9B6D40401DE3FD04007C4B50 /* Smooch.framework */,
+				9B6D403A1DE3FA5E007C4B50 /* Info.plist */,
+			);
+			path = ZappyCardsBot;
+			sourceTree = "<group>";
+		};
+		9B6D40421DE3FDD6007C4B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D40571DE3FE4D007C4B50 /* SystemConfiguration.framework */,
+				9B6D40551DE3FE3F007C4B50 /* UIKit.framework */,
+				9B6D40531DE3FE39007C4B50 /* QuartzCore.framework */,
+				9B6D40511DE3FE31007C4B50 /* Photos.framework */,
+				9B6D404F1DE3FE17007C4B50 /* Foundation.framework */,
+				9B6D404B1DE3FE03007C4B50 /* CoreTelephony.framework */,
+				9B6D404C1DE3FE04007C4B50 /* CoreText.framework */,
+				9B6D40491DE3FDF2007C4B50 /* CoreGraphics.framework */,
+				9B6D40471DE3FDE4007C4B50 /* CFNetwork.framework */,
+				9B6D40451DE3FDDF007C4B50 /* AVFoundation.framework */,
+				9B6D40431DE3FDD6007C4B50 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6D402A1DE3FA5D007C4B50 /* ZappyCardsBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6D403D1DE3FA5E007C4B50 /* Build configuration list for PBXNativeTarget "ZappyCardsBot" */;
+			buildPhases = (
+				9B6D40271DE3FA5D007C4B50 /* Sources */,
+				9B6D40281DE3FA5D007C4B50 /* Frameworks */,
+				9B6D40291DE3FA5D007C4B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZappyCardsBot;
+			productName = ZappyCardsBot;
+			productReference = 9B6D402B1DE3FA5E007C4B50 /* ZappyCardsBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6D40231DE3FA5D007C4B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "ROHIT GUPTA";
+				TargetAttributes = {
+					9B6D402A1DE3FA5D007C4B50 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B6D40261DE3FA5D007C4B50 /* Build configuration list for PBXProject "ZappyCardsBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6D40221DE3FA5D007C4B50;
+			productRefGroup = 9B6D402C1DE3FA5E007C4B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6D402A1DE3FA5D007C4B50 /* ZappyCardsBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6D40291DE3FA5D007C4B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D40391DE3FA5E007C4B50 /* LaunchScreen.storyboard in Resources */,
+				9B6D40361DE3FA5E007C4B50 /* Assets.xcassets in Resources */,
+				9B6D40341DE3FA5E007C4B50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6D40271DE3FA5D007C4B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D40311DE3FA5E007C4B50 /* ViewController.swift in Sources */,
+				9B6D405C1DE40399007C4B50 /* CustomObject.m in Sources */,
+				9B6D402F1DE3FA5E007C4B50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B6D40321DE3FA5E007C4B50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6D40331DE3FA5E007C4B50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6D40371DE3FA5E007C4B50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6D40381DE3FA5E007C4B50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6D403B1DE3FA5E007C4B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6D403C1DE3FA5E007C4B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6D403E1DE3FA5E007C4B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZappyCardsBot",
+				);
+				INFOPLIST_FILE = ZappyCardsBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.gupta.ZappyCardsBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZappyCardsBot-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B6D403F1DE3FA5E007C4B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZappyCardsBot",
+				);
+				INFOPLIST_FILE = ZappyCardsBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.gupta.ZappyCardsBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZappyCardsBot-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6D40261DE3FA5D007C4B50 /* Build configuration list for PBXProject "ZappyCardsBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6D403B1DE3FA5E007C4B50 /* Debug */,
+				9B6D403C1DE3FA5E007C4B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6D403D1DE3FA5E007C4B50 /* Build configuration list for PBXNativeTarget "ZappyCardsBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6D403E1DE3FA5E007C4B50 /* Debug */,
+				9B6D403F1DE3FA5E007C4B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6D40231DE3FA5D007C4B50 /* Project object */;
+}
