@@ -25,7 +25,23 @@
 		9B6D40561DE3FE3F007C4B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40551DE3FE3F007C4B50 /* UIKit.framework */; };
 		9B6D40581DE3FE4D007C4B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40571DE3FE4D007C4B50 /* SystemConfiguration.framework */; };
 		9B6D405C1DE40399007C4B50 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D405B1DE40399007C4B50 /* CustomObject.m */; };
+		9B9A30551DEFBBA3009608B0 /* Smooch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40401DE3FD04007C4B50 /* Smooch.framework */; };
+		9B9A30561DEFBBA3009608B0 /* Smooch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D40401DE3FD04007C4B50 /* Smooch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B9A30571DEFBBA4009608B0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B9A30561DEFBBA3009608B0 /* Smooch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B6D402B1DE3FA5E007C4B50 /* ZappyCardsBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZappyCardsBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +82,7 @@
 				9B6D404A1DE3FDF2007C4B50 /* CoreGraphics.framework in Frameworks */,
 				9B6D40481DE3FDE4007C4B50 /* CFNetwork.framework in Frameworks */,
 				9B6D40461DE3FDDF007C4B50 /* AVFoundation.framework in Frameworks */,
+				9B9A30551DEFBBA3009608B0 /* Smooch.framework in Frameworks */,
 				9B6D40441DE3FDD6007C4B50 /* AssetsLibrary.framework in Frameworks */,
 				9B6D40411DE3FD04007C4B50 /* Smooch.framework in Frameworks */,
 			);
@@ -135,6 +152,7 @@
 				9B6D40271DE3FA5D007C4B50 /* Sources */,
 				9B6D40281DE3FA5D007C4B50 /* Frameworks */,
 				9B6D40291DE3FA5D007C4B50 /* Resources */,
+				9B9A30571DEFBBA4009608B0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -375,6 +393,7 @@
 				9B6D403F1DE3FA5E007C4B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
