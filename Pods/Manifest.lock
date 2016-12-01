@@ -1,0 +1,12 @@
+PODS:
+  - Smooch (5.2.1)
+
+DEPENDENCIES:
+  - Smooch
+
+SPEC CHECKSUMS:
+  Smooch: 0c512f15dd37df27cafdc8ddd5c35ff2635ec3e3
+
+PODFILE CHECKSUM: c5e8cd94d7defc3d7648af9d699a6eab2201796e
+
+COCOAPODS: 1.1.1
