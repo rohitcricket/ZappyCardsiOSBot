@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
        Smooch.initWith(SKTSettings(appToken: "292uzj7j4siu079qufhjq0w7d"))
-        Smooch.show()
+      
         
         return true
     }
