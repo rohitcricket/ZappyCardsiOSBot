@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        Smooch.show()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +22,10 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func mButton(_ sender: Any) {
+        Smooch.show()
+    }
+
 
 
 }
